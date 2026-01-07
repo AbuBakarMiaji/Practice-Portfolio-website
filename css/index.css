@@ -11,11 +11,12 @@
 }
 
 header{
-    padding-top:37px ;
+    /* padding-top:37px ; */
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
     background-position: 38px 23px, bottom right;
     background-repeat: no-repeat;
+    height: 800px;
     
 }
 
@@ -27,6 +28,7 @@ nav{
     margin: 0px auto;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 .logo h1{
@@ -76,6 +78,7 @@ nav ul li a{
     /* border: 1px solid red; */
     margin: 46px  38px 0px 230px;
     align-items: center;
+    height: 100%;
    
 }
 
@@ -313,14 +316,6 @@ footer{
     text-align: left;
 }
 
-.input-feld{
-    width: 461px;
-    height: 64px;
-    padding: 30px 18px;
-    border-radius: 5px;
-    border:none;
-}
-
 .massage h2{
     font-size: 35px;
     font-weight: bold;
@@ -329,10 +324,26 @@ footer{
     
 
 }
+.input-feld{
+    width: 461px;
+    height: 64px;
+    padding: 30px 18px;
+    border-radius: 5px;
+    border:none;
+}
 
 .box{
     margin-bottom: 24px;
-   
+    
 }
+.field
+{
+    width: 461px;
+    padding: 30px 18px;
+    border-radius: 5px;
+    border:none;
+}
+
+
 
 
